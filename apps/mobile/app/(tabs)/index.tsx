@@ -194,12 +194,12 @@ export default function HomeScreen() {
                                 mode="elevated"
                                 onPress={() => router.push("/custom-request")}
                             >
-                                <Card.Content style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
-                                    <View style={{ flex: 1 }}>
-                                        <Text variant="titleMedium" style={{ fontWeight: '700', color: 'white' }}>Don't know what to order?</Text>
-                                        <Text variant="bodyMedium" style={{ color: 'white', opacity: 0.9, marginTop: 4 }}>Create a custom request & get quotes.</Text>
+                                <Card.Content style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingVertical: 24, paddingHorizontal: 20 }}>
+                                    <View style={{ flex: 1, paddingRight: 16 }}>
+                                        <Text variant="headlineSmall" style={{ fontWeight: '800', color: 'white' }}>Don't know what to order?</Text>
+                                        <Text variant="titleMedium" style={{ color: 'white', opacity: 0.9, marginTop: 8 }}>Create a custom request & get quotes.</Text>
                                     </View>
-                                    <MaterialCommunityIcons name="star-face" size={40} color="white" />
+                                    <MaterialCommunityIcons name="star-face" size={64} color="white" />
                                 </Card.Content>
                             </Card>
                         </View>
